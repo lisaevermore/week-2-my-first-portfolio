@@ -1,0 +1,208 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 1.5;
+    background-color: rgb(214, 205, 194);
+  }
+  
+ 
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+  
+  p {
+    margin: 0;
+  }
+  /* header */
+  header{
+    position: absolute;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background: transparent;
+    z-index: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    padding: 5px 20px;
+  }
+  h1{
+    font-size: 40px;
+    font-weight: 70;
+    padding: 5px;
+  }
+  
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    max-width: 90%;
+    padding: 0 1rem;
+  }
+  ul{
+    list-style: none;
+    padding-inline-start: 0;
+  }
+  nav ul li{
+    display: inline-block;
+    font-size: 400 1.25rem;
+  }
+  nav ul li a{
+    margin: 0 0.5rem;
+    padding-left: 25px;
+  }
+  .hero-banner{ /*class */
+    display: flex;
+    justify-content: space-between;
+    height: 35vh;
+    flex-direction: row;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    align-content: space-between;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    background-color: rgb(57, 7, 7) 80%;
+  }
+  #hero-img{ /*id */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;  
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    z-index: -1;
+  }
+  img{
+    vertical-align: middle;
+    border-radius: 50%;
+  }
+  .hero-banner h2{
+    background-color: whitesmoke;
+    font-size: 40px;
+    font-weight: 70;
+    font-style: italic;
+    padding: 0px 20px 0px 20px;
+    margin-bottom: 15px;
+    margin-right: 50px;
+  }
+
+  /* main */
+   .page-wrapper {
+    margin: 190px 5%;
+    display: grid;
+    grid-template-rows: 1fr 3fr 1fr;
+    grid-template-columns: 25% 75%;
+    height: 70vh;
+    min-height: 70vh;
+    gap: 40px;
+    align-items: center;
+    
+  }; 
+  .page-section{
+    display: flex;
+    flex-direction: row;
+    border-right: rgb(37, 36, 35);
+    
+  }
+  .section-title{
+    display: flex;
+    margin: 1.75rem 0.75rem;
+    padding: 0.325rem 1rem 0.325rem 0.325rem;
+    border-right: 0.25rem solid ;
+    font: 2rem ;
+  }
+  /* #about{
+    border-right: blanchedalmond;
+  }
+  #work{
+    border-right: rgb(193, 45, 45);
+  }
+  #contact{
+    border-right: blanchedalmond;
+  } */
+  #content p{
+    display: flex;
+    font-size: large;
+  }
+  
+  #work-grid-content{
+    display: flex;
+    flex-wrap: wrap;
+    /* grid-template-columns: 1fr 1fr;
+    grid-template-rows: 400px 200px 200px;
+    grid-template-areas: 
+    "horiseon-code-refactor horiseon-code-refactor "
+    "surf-report LED-wall"
+    "calculator run-buddy"; */
+  }
+  .project{
+    flex: 1 0 45%;
+    background-size: cover;
+    margin: 5px;
+    /* display: grid; */
+    align-content: flex-end;
+    height: 150px;
+  
+  }
+  .project:hover{
+    opacity: 0.3;
+  }
+  #horiseon-code-refactor{
+
+    background-image: url("/starter/images/screencapture-127-0-0-1-5500-horiseon-code-refactor-index-html-2022-11-29-22_59_43.png");
+    flex: 1 0 100%;
+    /* height: 100%; */
+  }
+  #surf-report{
+
+    background-image: url("/starter/images/02-portfolio-4.jpg");
+  }
+  #LED-wall{
+  
+    background-image: url("/starter/images/02-portfolio-1.jpg");
+  }
+  #calculator{
+   
+    background-image: url("/starter/images/02-portfolio-2.jpg");
+  }
+  #run-buddy{
+ 
+    background-image: url("/starter/images/02-run-buddy.jpg");
+  }
+  .subText{
+    color: black;
+    background-color: rgb(188 188 188);
+    flex-direction: column;
+    padding: 0 50 10;
+    position: relative;
+    bottom: -90px;
+    max-width: fit-content;
+    padding: 5px;
+  }
+
+  #social.page-section{
+    display: flex;
+    justify-content: space-between;
+  }
+  #social.page-section a{
+
+    color: black;
+    font-size: 150%;
+  }
+  /* .bg-image.bg-overlay{
+    position: relative;
+  }
+  .bg-image {
+    background-position: top;
+    background-size: cover;
+} */
