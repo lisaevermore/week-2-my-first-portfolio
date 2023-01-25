@@ -12,6 +12,7 @@ In this challenge, I will apply the core skills I've recently learned: flexbox, 
 The link to the webpage
 
 the webpage can be seen in the screenshot below.
+![Uploading screencapture-127-0-0-1-5500-starter-index-html-2023-01-25-22_52_30.png…]()
 
 ### Additional resources
 Flexbox documentation
